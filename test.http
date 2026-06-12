@@ -1,0 +1,27 @@
+### GET Request
+GET https://orseeker-backend.com/api/v1/seekers
+
+
+### POST Request
+POST https://orseeker-backend.com/api/v1/seekers
+Content-Type: application/json
+
+{
+  "name": "Mark Smith",
+  "email": "mark.smith@example.com",
+  "password": "securepassword",
+   "skills": ["Python", "Django", "REST API"],
+   "experience": 5
+
+}
+### PUT Request
+PUT https://orseeker-backend.com/api/v1/seekers/1
+Content-Type: application/json
+
+{
+  "name": "Jane Doe",
+  "email": "jane.doe@example.com"
+}
+
+### DELETE Request
+DELETE https://orseeker-backend.com/api/v1/seekers/1
