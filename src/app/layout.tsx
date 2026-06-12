@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ClerkProvider } from "@clerk/nextjs";
+// import { ClerkProvider } from "@clerk/nextjs";
 import "./globals.css";
 import { LenisProvider } from "@/providers/LenisProvider";
 import { QueryProvider } from "@/providers/ReactQueryProvider";
@@ -18,11 +18,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${supreme.variable} antialiased`}>
-        <ClerkProvider>
-          <QueryProvider>
-            <LenisProvider>{children}</LenisProvider>
-          </QueryProvider>
-        </ClerkProvider>
+        {/* <ClerkProvider> */}
+        <QueryProvider>
+          <LenisProvider>{children}</LenisProvider>
+        </QueryProvider>
+        {/* </ClerkProvider> */}
       </body>
     </html>
   );
