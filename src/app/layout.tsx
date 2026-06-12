@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 import { QueryProvider } from "@/providers/ReactQueryProvider";
-import { supreme } from "@/fonts";
 
 export const metadata: Metadata = {
   title: "Orseek",
@@ -17,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${supreme.variable} antialiased`}>
+      <body className="antialiased">
         {/* <ClerkProvider> */}
         <QueryProvider>{children}</QueryProvider>
         {/* </ClerkProvider> */}
