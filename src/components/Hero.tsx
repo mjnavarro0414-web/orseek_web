@@ -13,7 +13,6 @@ const TAGS = ["Remote", "Full-time", "Part-time", "Internship", "Freelance"];
 
 export default function HeroSection() {
   const [activeTag, setActiveTag] = useState("Remote");
-  const [query, setQuery] = useState("");
 
   return (
     <section className="relative overflow-hidden bg-[#F5F8FF] pt-12 md:pt-20">
