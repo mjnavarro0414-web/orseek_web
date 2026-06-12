@@ -2,10 +2,10 @@
 
 export default function MobileAppSection() {
   return (
-    <section className="relative bg-gradient-to-b from-[#F8FAFC] to-[#EFF6FF] py-14 md:py-24 px-4 sm:px-6 md:px-16 overflow-hidden">
+    <section className="relative bg-linear-to-b from-[#F8FAFC] to-[#EFF6FF] py-14 md:py-24 px-4 sm:px-6 md:px-16 overflow-hidden">
       {/* soft background glow */}
       <div className="absolute inset-0 flex justify-center items-center pointer-events-none">
-        <div className="w-[450px] h-[450px] bg-blue-500/10 rounded-full blur-3xl" />
+        <div className="w-112.5 h-112.5 bg-blue-500/10 rounded-full blur-3xl" />
       </div>
 
       <div className="relative z-10 max-w-5xl mx-auto text-center">

@@ -18,8 +18,8 @@ export default function HeroSection() {
   return (
     <section className="relative overflow-hidden bg-[#F5F8FF] pt-12 md:pt-20">
       {/* Background blobs */}
-      <div className="pointer-events-none absolute -top-32 -left-32 h-[320px] w-[320px] rounded-full bg-[#DBEAFE] opacity-60 blur-3xl" />
-      <div className="pointer-events-none absolute bottom-0 right-0 h-[240px] w-[240px] rounded-full bg-[#BFDBFE] opacity-50 blur-3xl" />
+      <div className="pointer-events-none absolute -top-32 -left-32 h-80 w-[320px] rounded-full bg-[#DBEAFE] opacity-60 blur-3xl" />
+      <div className="pointer-events-none absolute bottom-0 right-0 h-60 w-60 rounded-full bg-[#BFDBFE] opacity-50 blur-3xl" />
 
       {/* Main content */}
       <div className="relative z-10 mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 md:grid-cols-2 md:px-10 lg:px-16 pt-6 pb-16 md:pb-20">
@@ -112,7 +112,7 @@ export default function HeroSection() {
 
         {/* RIGHT IMAGE */}
         <div className="flex items-center justify-center">
-          <div className="relative w-full max-w-[520px]">
+          <div className="relative w-full max-w-130">
             {/* Main image card */}
             <div className="overflow-hidden rounded-3xl border border-[#E5E7EB] bg-white shadow-xl">
               <Image

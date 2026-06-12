@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex flex-col lg:flex-row justify-between items-start gap-12 mb-16">
           <div className="max-w-sm">
             <div className="flex items-center gap-2 mb-6">
-              <span className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#3B82F6] to-[#1E3A8A] flex items-center justify-center text-white font-black text-xl">
+              <span className="w-8 h-8 rounded-lg bg-linear-to-br from-[#3B82F6] to-[#1E3A8A] flex items-center justify-center text-white font-black text-xl">
                 W
               </span>
               <span className="text-2xl font-extrabold text-white tracking-tight">

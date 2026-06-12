@@ -230,8 +230,8 @@ function DistrictList() {
 function SalaryTable() {
   return (
     <div className="mt-4 overflow-x-auto">
-      <table className="w-full min-w-[500px] text-xs text-black">
-        <thead className="text-black/70 uppercase tracking-[0.1em]">
+      <table className="w-full min-w-125 text-xs text-black">
+        <thead className="text-black/70 uppercase tracking-widest">
           <tr>
             <th className="py-2 text-left">Role</th>
             <th>Entry</th>
