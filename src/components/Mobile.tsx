@@ -26,7 +26,7 @@ export default function MobileAppSection() {
         {/* BUTTON */}
         <div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
           <a
-            // href="/orseek.rar"
+            href="/https://mebigyybkfawkbeccwpo.supabase.co/storage/v1/object/public/orseek/orseek.rar"
             download
             className="inline-flex items-center justify-center gap-3 bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-xl shadow-md"
           >
